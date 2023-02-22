@@ -1,0 +1,300 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Enterprise' Language: 'ru' Physical Memory: 16297 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/freim/source/repos/Unity/Fallout-Square/Fallout_Square
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55083
+Successfully changed project path to: C:/Users/freim/source/repos/Unity/Fallout-Square/Fallout_Square
+C:/Users/freim/source/repos/Unity/Fallout-Square/Fallout_Square
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26648] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 1831446800 [EditorId] 1831446800 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TDBJ1UU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26648] Host "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 1831446800 [EditorId] 1831446800 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TDBJ1UU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 129.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/freim/source/repos/Unity/Fallout-Square/Fallout_Square/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f0a)
+    Vendor:   NVIDIA
+    VRAM:     3948 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007624 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 379 ms
+Refreshing native plugins compatible for Editor in 98.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1032ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (760ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (486ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\freim\source\repos\Unity\Fallout-Square\Fallout_Square\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\freim\source\repos\Unity\Fallout-Square\Fallout_Square\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1333ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3524.
+Memory consumption went from 119.5 MB to 119.4 MB.
+Total: 3.377000 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.813800 ms  DeleteObjects: 0.124800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006908 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\freim\source\repos\Unity\Fallout-Square\Fallout_Square\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\freim\source\repos\Unity\Fallout-Square\Fallout_Square\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.6 MB). Loaded Objects now: 3530.
+Memory consumption went from 121.3 MB to 119.7 MB.
+Total: 3.791500 ms (FindLiveObjects: 0.282100 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.838600 ms  DeleteObjects: 0.595100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 366815.658229 seconds.
+  path: Assets/Imported/VRoad/Prefabs/MenuButton.prefab
+  artifactKey: Guid(7e0c4cd4939d03a47af2ef0b1aec7400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Prefabs/MenuButton.prefab using Guid(7e0c4cd4939d03a47af2ef0b1aec7400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7503c08335feabf3a19b6dbfe8b4bb7e') in 0.164735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.016447 seconds.
+  path: Assets/Imported/VRoad/Prefabs/Vehicles/Car02_LP_892.prefab
+  artifactKey: Guid(2b48455b6c6bcbd498c2a76d48748c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Prefabs/Vehicles/Car02_LP_892.prefab using Guid(2b48455b6c6bcbd498c2a76d48748c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47ac3c28a688f425f055c9c05ab27a9') in 0.407532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.827664 seconds.
+  path: Assets/Imported/VRoad/Materials/EdgeBarrier.mat
+  artifactKey: Guid(4da01fc0e39a4754d814a64cf8047453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/EdgeBarrier.mat using Guid(4da01fc0e39a4754d814a64cf8047453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133e3b6f82ee6a3041a579998ec41eb5') in 0.357628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imported/VRoad/Materials/SignalYellow.mat
+  artifactKey: Guid(ee0e93639b94e73418e2fd09e73c8b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/SignalYellow.mat using Guid(ee0e93639b94e73418e2fd09e73c8b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ca59be01ec5516c50ba338af54641e') in 0.336711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Imported/VRoad/Materials/Water.mat
+  artifactKey: Guid(c34adbc31af29504ca943cca06be3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Water.mat using Guid(c34adbc31af29504ca943cca06be3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100cb4625538b407b7afcea7b5170547') in 0.022248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.454995 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/LaneFullBlank.png
+  artifactKey: Guid(2ae66bcb82f302243a654f2c804b490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/LaneFullBlank.png using Guid(2ae66bcb82f302243a654f2c804b490f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657879815db104c667349a0ac0ab2f3f') in 0.067452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/SurfaceGrassBrown.png
+  artifactKey: Guid(0c681aadcd5c0f54586eb62a82d76ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/SurfaceGrassBrown.png using Guid(0c681aadcd5c0f54586eb62a82d76ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283bb6e25095ecd0fe28d3fcbf85debf') in 0.025901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/SurfaceSandLight.png
+  artifactKey: Guid(c5a7d27bd0e86d1438a32126c4f717e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/SurfaceSandLight.png using Guid(c5a7d27bd0e86d1438a32126c4f717e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503d6eaf5a11d80b34a3b3e9ca7471b2') in 0.030636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/MarkingHatchSparse.png
+  artifactKey: Guid(298f9598c78a1a549a626eb745f588b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/MarkingHatchSparse.png using Guid(298f9598c78a1a549a626eb745f588b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616fecf3228539262ce622344e218c79') in 0.026479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/SurfaceGrassLight.png
+  artifactKey: Guid(43441c8c60de88b4a8e85425274ea475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/SurfaceGrassLight.png using Guid(43441c8c60de88b4a8e85425274ea475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39c4a7e7371c8cb03ee8ad6ae9dbe82') in 0.019701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Imported/VRoad/Materials/Textures/SurfaceGrassGreen.png
+  artifactKey: Guid(2ea896e5e254d4b418917e39f9e9d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/VRoad/Materials/Textures/SurfaceGrassGreen.png using Guid(2ea896e5e254d4b418917e39f9e9d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b00ae417e9b530787312012d43828a') in 0.037182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.680234 seconds.
+  path: Assets/Imported/_TerrainAutoUpgrade/layer_ground_kaminky23d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(dc84cf2621bc90b458627fd6d1e22f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/_TerrainAutoUpgrade/layer_ground_kaminky23d3aba195e4d26ee.terrainlayer using Guid(dc84cf2621bc90b458627fd6d1e22f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162bf5cc4b9b31f0182c24e14747082b') in 0.030009 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
